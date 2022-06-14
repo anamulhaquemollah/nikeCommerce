@@ -52,3 +52,19 @@ nav{
       
   }
 
+  .navBottom{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3.5rem;
+      padding-top: 1rem;
+      text-transform: uppercase;
+      color: rgb(221, 220, 220);
+      flex-wrap: wrap;
+     
+  }
+
+ .navItems{
+      cursor: pointer;
+  }
+
