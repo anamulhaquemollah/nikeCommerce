@@ -143,7 +143,113 @@ nav{
       z-index: 99;
   }
 
+  /*====================== feature===================*/
+  .features{
+    /* width: 50%; */
+    /* padding: 3rem; */
+}
 
 
+.featureContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
 
- 
+
+.feature{
+    padding: 50px;
+    text-align: center;
+    font-size: 80%;
+}
+
+.feature img{
+    height: 50px;
+    width: 50px;
+}
+
+.feature h2{
+    margin: 2rem 0;
+}
+
+.feature p{
+    margin:  0 3rem;
+    font-size: 0.9rem;
+}
+
+
+/*============= product details =============*/
+
+.product{
+    background-color: whitesmoke;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    height: 100vh;
+    position: relative;
+
+}
+.productImage{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.productDetails{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 40%;
+    padding: 50px;
+    /* border: 1px solid red; */
+    
+}
+
+.productTitle{
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.productPrice{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.productDescription{
+    font-size: 1.1rem;
+}
+
+.colors, .sizes{
+    display: flex;
+    margin: 1.2rem 0;
+  
+}
+
+.color{
+    background-color: black;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.size{
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 0.4rem 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+
+}
+
+.productButton{
+    padding: 0.5rem 1rem;
+    float: right;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.productButton:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
