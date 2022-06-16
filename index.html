@@ -142,11 +142,62 @@
             </div>
 
             <button class="productButton">BUY NOW!</button>
+        </div>
 
+<!-- payment info -->
+<div class="payment">
+    <div class="paymentContainer">
+        
+        <h3>Personal Information</h3>
+        <button class="closeButton">X</button>
+        
+        <div class="personalInfo">
+
+            <div class="info">
+                <label for="name">Name and Surname
+                </label><br>
+                <input type="text" id="name" placeholder="John Doe">
+            </div>
+
+            <div class="info">
+                <label for="phone">Phone Number</label><br>
+                <input type="text" id="phone" placeholder="+123456789">
+            </div>
+
+            <div class="info">
+                <label for="address">Address</label><br>
+                <input type="text" placeholder="Elton st 21 12 145" id="address">
+            </div>
 
         </div>
+
+        <div class="cardInfo">
+            <h3>Card Information</h3>
+
+            <div class="cardImage">
+                <img src="img/visa.png" alt="visa">
+                <img src="img/master.png" alt="mastercard logo">
+            </div>
+
+            <label for="cardNumber">Card Number</label><br>
+            <input type="text" id="cardNumber" placeholder="Card Number">
+
+            <div class="cardDate">
+                <input type="text" placeholder="mm">
+                <input type="text" placeholder="yyyy">
+                <input type="text" placeholder="cvv">
+            </div>
+        </div>
+
+        
+    </div>
+    <button class="checkout">Checkout</button>
+</div>
+
+
     </div>
 
+    
 
     <script src="main.js"></script>
 </body>

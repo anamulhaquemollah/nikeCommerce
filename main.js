@@ -129,3 +129,17 @@ productSizes.forEach((size) =>{
         size.style.color = "white";
     })
 })
+
+
+const payment = document.querySelector(".payment"); 
+const buyProduct = document.querySelector(".productButton"); 
+const closePayment = document.querySelector(".closeButton"); 
+
+buyProduct.addEventListener("click", ()=>{
+  payment.style.display = "block"
+  
+})
+
+closePayment.addEventListener("click", ()=>{
+  payment.style.display = "none"; 
+})
