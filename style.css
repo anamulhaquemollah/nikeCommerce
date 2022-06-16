@@ -385,6 +385,7 @@ nav{
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -404,6 +405,8 @@ nav{
     display: flex;
     gap: 50px;
     padding: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footerMenu{
@@ -440,4 +443,97 @@ nav{
     color: white;
     padding: 5px 9px;
     font-size: 16px;
+}
+
+
+/*----------------------responsive---------------*/
+
+@media screen and (max-width:480px) {
+    
+
+    nav{
+        padding: 15px;
+    }
+    .search{
+        display: none;
+    }
+
+    .slider{
+        clip-path: none;
+    }
+
+    .sliderBg{
+        height: 100%;
+        width: 100%;
+    }
+    .buyButton{
+        top: 0; 
+        bottom: unset;
+        right: 0;
+    }
+    .sliderPrice{
+        left: 0;
+        top: 0;
+    }
+   .sliderTtile{
+       background-color: rgba(0, 0, 0, 0.1);
+       
+   }
+   .featureContainer{
+       flex-direction: column;
+   }
+
+.product{
+    clip-path: none;
+    height: fit-content;
+}   
+.productDetails{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    top: unset;
+}
+.productTitle {
+    font-size: 45px;
+    font-weight: 700;
+}
+.productPrice{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.productImage{
+    width: 200px;
+    /* border: 1px solid red; */
+    height: 200px;
+}
+
+.productButton{
+    padding: 0.5rem 1rem;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    
+}
+.payment{
+    width: 440px;
+    
+}
+.gallery{
+    flex-direction: column;
+    padding: 10px;
+}
+.galleryItem{
+    padding: 5px;
+}
+.newSeason{
+    font-size: 80%;
+}
+.buyNewSeason{
+    padding: 7px 14px;
+    font-size: 14px;
+    
+}
+.footer{
+    flex-wrap: wrap;
+}
 }
