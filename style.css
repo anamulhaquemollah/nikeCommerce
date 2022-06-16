@@ -519,13 +519,11 @@ nav{
     
 }
 .gallery{
-    flex-direction: column;
-    padding: 10px;
-}
-.galleryItem{
-    padding: 5px;
+    display: none;
+   
 }
 .newSeason{
+    flex-direction: column;
     font-size: 80%;
 }
 .buyNewSeason{
